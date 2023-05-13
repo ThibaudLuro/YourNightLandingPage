@@ -3,6 +3,7 @@ import TopBar from "./components/TopBar";
 import ButtonDownload from "./components/ButtonDownload";
 import Footer from "./components/Footer";
 import Functionnality from "./components/Functionnality";
+import './App.css'
 
 function App() {
 
@@ -78,29 +79,29 @@ function App() {
                     </div>
                 </div>
                 <div className="h-[500px] flex items-center justify-center md:h-[600px] lg:h-[700px]">
-                    <img src="../public/img/Light.png" alt=""
+                    <img src="img/Light.png" alt=""
                          className="w-[400px] relative z-0 md:w-[500px] lg:w-[600px]"/>
-                    <img src="../public/img/MainPicture.png" alt=""
+                    <img src={"img/MainPicture.png"} alt=""
                          className="w-[350px] absolute z-100 md:w-[450px] lg:w-[550px]"/>
                 </div>
             </div>
 
             <div className="px-10 pb-10">
                 <div>
-                    <Functionnality image="../public/img/Refunds.png" title={"Gestion des remboursements 💸"}
+                    <Functionnality image="img/Refunds.png" title={"Gestion des remboursements 💸"}
                                     content={"Aperçu en temps réel des dépenses de chacun des participants avec calcul automatique de qui doit combien à qui"}
                                     imageDirection={"left"}
                                     width={screenSize.width}/>
                 </div>
                 <div className="mt-10">
-                    <Functionnality image="../public/img/Playlist.png" title={"Playlist commune pour ta soirée 💽"}
+                    <Functionnality image="img/Playlist.png" title={"Playlist commune pour ta soirée 💽"}
                                     content={"Ajoute tes musiques de soirées préférées avec tous tes invités dans une playlist commune pour ensuite l’exporter sur ton compte Spotify"}
                                     imageDirection={"right"}
                                     width={screenSize.width}/>
 
                 </div>
                 <div className="mt-10">
-                    <Functionnality image="../public/img/Supplies.png" title={"Gestion des courses 🛒"}
+                    <Functionnality image="img/Supplies.png" title={"Gestion des courses 🛒"}
                                     content={"Définis une liste de courses afin d’anticiper tout ce dont vous avez besoin. Tes invités pourront ensuite s’attribuer ces courses pour savoir qui amène quoi"}
                                     imageDirection={"left"}
                                     width={screenSize.width}/>
