@@ -6,7 +6,7 @@ export default function Footer({width}: FooterProps) {
 
             <div className="flex flex-col px-5 py-5 sm:px-10 justify-start sm:justify-between">
                 <div className="flex flex-row items-center">
-                    <img src={"../public/Logo.png"} alt="" className="h-8 w-8"/>
+                    <img src="../../public/img/Logo.png" alt="" className="h-8 w-8"/>
                     <h1 className="text-white font-semibold ml-4">YOURNIGHT</h1>
                 </div>
 
@@ -17,8 +17,8 @@ export default function Footer({width}: FooterProps) {
                 }
 
                 <div className="flex flex-row items-center mt-4 sm:mt-0">
-                    <img src={"../public/Instagram.png"} alt="" className="h-6 w-6"/>
-                    <img src={"../public/Tiktok.png"} alt="" className="h-6 w-6 ml-2"/>
+                    <img src="../../public/img/Instagram.png" alt="" className="h-6 w-6"/>
+                    <img src="../../public/img/TikTok.png" alt="" className="h-6 w-6 ml-2"/>
                 </div>
             </div>
 
