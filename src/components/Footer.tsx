@@ -2,7 +2,7 @@ export type FooterProps = { width: number }
 
 export default function Footer({width}: FooterProps) {
     return (
-        <div className="h-full bg-[#272332] font-montserrat text-[10px] w-full h-full flex flex-row justify-between">
+        <div className="h-full mt-10 bg-[#272332] font-montserrat text-[10px] w-full h-full flex flex-row justify-between">
 
             <div className="flex flex-col px-5 py-5 sm:px-10 justify-start sm:justify-between">
                 <div className="flex flex-row items-center">

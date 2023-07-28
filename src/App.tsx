@@ -56,14 +56,14 @@ function App() {
                     <div className="mt-10 flex justify-center item-center md:justify-start">
                         <div className="mx-2">
                             <ButtonDownload content={"Apple Store"}
-                                            icon={"https://assets.stickpng.com/images/580b57fcd9996e24bc43c516.png"}
+                                            icon={"img/AppStore.png"}
                                             onClick={() => 
                                                 window.open("https://apps.apple.com/fr/app/yournight-gestion-de-soir%C3%A9es/id6450016678", "_blank")
                                             }/>
                         </div>
                         <div className="mx-2">
                             <ButtonDownload content={"Google Play"}
-                                            icon={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Play_Arrow_logo.svg/1200px-Google_Play_Arrow_logo.svg.png"}
+                                            icon={"img/PlayStore.png"}
                                             onClick={() => 
                                                 window.open("https://play.google.com/store/apps/details?id=com.yournight.client&hl=fr&gl=US", "_blank")
                                             }/>
