@@ -56,14 +56,14 @@ function App() {
                     <div className="mt-10 flex justify-center item-center md:justify-start">
                         <div className="mx-2">
                             <ButtonDownload content={"Apple Store"}
-                                            icon={"img/AppStore.png"}
+                                            icon="img/AppStore.png"
                                             onClick={() => 
                                                 window.open("https://apps.apple.com/fr/app/yournight-gestion-de-soir%C3%A9es/id6450016678", "_blank")
                                             }/>
                         </div>
                         <div className="mx-2">
                             <ButtonDownload content={"Google Play"}
-                                            icon={"img/PlayStore.png"}
+                                            icon="img/PlayStore.png"
                                             onClick={() => 
                                                 window.open("https://play.google.com/store/apps/details?id=com.yournight.client&hl=fr&gl=US", "_blank")
                                             }/>
